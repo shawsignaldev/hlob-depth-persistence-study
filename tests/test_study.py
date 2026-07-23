@@ -77,3 +77,11 @@ def test_markdown_report_mentions_hlob_depth_persistence_and_limitations():
     assert "deep" in report
     assert "persistence features" in report
     assert "public-safe synthetic" in report
+
+
+def test_readme_contains_public_promotion_terms():
+    readme = __import__("pathlib").Path("README.md").read_text(encoding="utf-8")
+
+    assert "hlob-depth-persistence-study" in readme
+    assert "deep-level persistence" in readme
+    assert "ablation report" in readme

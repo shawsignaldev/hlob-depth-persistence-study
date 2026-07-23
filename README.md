@@ -2,7 +2,7 @@
 
 Public repository slug: `hlob-depth-persistence-study`.
 
-HLOB-style deep limit order book persistence and ablation study with public-safe synthetic depth fixtures, persistence features, shallow-versus-deep comparison, and Markdown reports.
+HLOB-style deep-level persistence and ablation study with public-safe synthetic depth fixtures, persistence features, shallow-versus-deep comparison, and Markdown reports.
 
 ## Why This Exists
 
