@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hlob-depth-persistence-study"
+version = "0.1.0"
+description = "HLOB-style deep limit order book persistence and ablation study."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Ephraim Shaw"}]
+keywords = ["hlob", "limit-order-book", "depth", "ablation", "quant"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
